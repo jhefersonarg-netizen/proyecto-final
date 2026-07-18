@@ -1,11 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-h1{
-    margin-top: 10px;
-    align-items: center;
-    color: #daebf0;
-    background-color: #6d4c41;
-}
+//base 
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+
+//componentes
+
+@use "./partials/components/buttons";
+@use "./partials/components/cards";
+@use "./partials/components/tags";
+
+//layout
+
+@use "./partials/layout/contacto";
+@use "./partials/layout/galeria";
+@use "./partials/layout/productos";
+@use "./partials/layout/nosotros";
+@use "./partials/layout/index";
+
 

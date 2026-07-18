@@ -1,0 +1,31 @@
+@use "../utilities/variables";
+@use "../utilities/mixin";
+
+.galeria{
+    text-align: center;
+    padding: 50px 0;
+}
+.galeria h2{
+    color: white;
+    margin-bottom: 20px;
+}
+.galeria.p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.galeria img{
+    width: 950px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.4s;
+    box-shadow: 0 5px 15px rgba(0,0,0,3);
+}
+.galeria img:hover{
+    transform: scale(1.05);
+}
+.galeria .row{
+    justify-content: center;
+    gap: 20px;
+}

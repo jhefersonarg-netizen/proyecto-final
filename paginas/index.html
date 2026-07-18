@@ -8,36 +8,155 @@
     <meta name="author" content="Gian cakes">
     <!--link de bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>"Gian Cakes- un lugar para tentarse y sentir sabores unicos"</title>
 </head>
 <body>
-    <header>
-
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html"><img src="../../assets/logo.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="">
-      <div class="navbar-nav">
-        <a class="nav-link active" href=""></a>
-        <a class="nav-link" href="galeria.html">Galeria</a>
-         <a class="nav-link" href="productos.html">Productos</a>
-        <a class="nav-link" href="contacto.html">Contacto</a>
-        <a class="nav-link" href="nosotros.html">Nosotros </a>
-      </div>
-    </div>
+  <header class="header"> 
+<nav class="navbar-custom">
+  <div class="navbar-brand-custom">
+    <a class="logo" href=""> <img src="../../assets/logo.png" alt="logo de la pagina"></a>
+    <p class="titulo">Gian Cakes</p>
   </div>
+
+      <ul class="nav-menu">
+        <li>
+          <a class="nav-link " aria-current="page" href="./index.html"></a>
+        </li>
+        <li>
+          <a class="nav-link" href="./contacto.html">contacto</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./galeria.html">galeria</a>
+        </li>
+
+         <li>
+          <a class="nav-link" href="./productos.html">productos</a>
+        </li>
+        <li>
+          <a class="nav-link" href="./nosotros.html">nosotros</a>
+        </li>
+      </ul>
 </nav>
+</header>
+<main>
+  <section id="inicio" class="hero">
+    <h3>bienvenidos a Gian cakes</h3>
+  </section>
+<section id="productos" class="seccion-galeria">
+  <h3>Nuestra Galeria</h3>
 
-    </header>
-    <main>
-<h1>Gian Cakes</h1>
-    </main>
+  <hr>
+<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+    <img class="d-block w-100" src="../../assets/torta cereza y oreo.jpg" alt="">
+  </div>
+<div class="carousel-item " data-bs-interval="10000">
+  <img class="d-block w-100" src="../../assets/croassain dulce de leche y chocolate.jpg" alt="">
+</div>
+<div class="carousel-item " data-bs-tnterval="10000">
+  <img class="d-block w-100" src="../../assets/pasta flora.jpg" alt="torta con crema">
+</div>
+<div class="carousel-item " data-bs-tnterval="10000">
+  <img class="d-block w-100" src="../../assets/torta con morango.jpg" alt="torta con frutilla">
+</div>
+<div class="carousel-item " data-bs-tnterval="10000">
+  <img class="d-block w-100" src="../../assets/celebrando cumple en familia.jpg" alt="celebracion de cumpleaños con una torta de gian cak   es">
+</div>
+<div class="carousel-item " data-bs-tnterval="10000">
+  <img class="d-block w-100" src="../../assets/deco animales.jpg" alt="celebracion de cumpleaños con una torta de gian cakes">
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+</section>
+<hr>
+<h2>Productos</h2>
+<div class="container">
+  <div class="card">
+  <img src="../../assets/cachapas venezolana.jpg" class="card-img" alt="cachapa venezolana, una torta a base de choclo">
+  <div class="card-body">
+    <h5 class="card-title">Cachapa venezolana</h5>
+    <p class="card-texto">La cachapa es a base de choclo y leche donde se prepara una mezcla, luego queda lista pora colocar a cocinar por 15 minutos</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+  </div>
+  <div class="card">
+   <img src="../../assets/quesillo.jpg" class="card-img" alt="pudin o flan argentino ">
+  <div class="card-body">
+    <h5 class="card-title">quesillo venezolanoi o flan argentino</h5>
+    <p class="card-texto">El quesillo o flan hecho a base de nuestro caramelo especial.</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+  </div>
+  <div class="card">
+   <img src="../../assets/tostado con huevo.jpg" class="card-img" alt="pan tostado con huevo revuelto">
+  <div class="card-body">
+    <h5 class="card-title">tostado</h5>
+    <p class="card-texto"> una tostada con huevos revueltos</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+  </div>
+   <div class="card">
+   <img src="../../assets/4 medialunas.jpg" class="card-img" alt="medialunas doraditas">
+  <div class="card-body">
+    <h5 class="card-title">media lunas</h5>
+    <p class="card-texto">nuestras medialunas hechas con mucho amor</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+  </div>
+  <div class="card">
+   <img src="../../assets/porcion chocolate gian cakes.webp" class="card-img" alt="torta de chocolate">
+  <div class="card-body">
+    <h5 class="card-title">torta de chocolate</h5>
+    <p class="card-texto">nuestra especial torta de chocolate en porciones para compartir</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+  </div>
+</div>
+
+<hr>
+<h2>CONTACTO</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.435417063167!2d-58.39409483568848!3d-34.61835612880068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb5d4509ea1b%3A0xf96fd349d305b5cc!2sGian%20Cakes!5e0!3m2!1ses-419!2sar!4v1783432143626!5m2!1ses-419!2sar" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<section class="contacto">
+  <h3>INFORMACION</h3>
+  <P> calle independencia 1911, ciudad autonoma de buenas aires capital federal - san cristobal</P>
+  <p>Celular: 11 23828011</p>
+  <p>Correo: giancakes@gmail.com</p>
+  </section>
+  
+  <hr>
+
+<h2>SOBRE NOSOTROS</h2>
+<section class="sobre-nosotros">
+
+ <img class="img-local"  src="../../assets/galletas.jpg" alt="">
+<p> En Gian Cakes elaboramos tortas,postres y desayunos con ingredientes de calidad,combinando recetas tradicionales con un toque casero. nuestro objetivo es ofrecer productos frescos y deliciosos.</p>
+<h3> NUESTRA MISION</h3>  
+<P> Brindar a nuestros clientes productos artesanales preparados con dedicacion, calidad y mucho cariño</P> 
+<h3>GRACIAS POR CONFIAR EN GIAN CAKES</h3>
+</section>
+
+</main>
     <footer>
-
+    <p>seguinos en nuestras redes sociales</p>
+    <div class="redes">
+   <img class="instagram" src="../../assets/instagram-2-1-logo-svgrepo-com.svg" alt="instagram">
+    <p>@Gian_Cakes</p>
+    
+   <img  class="facebook" src="../../assets/facebook-color-svgrepo-com.svg" alt="facebook">
+   <p>GianCakes1911</p>
+   </div>
+  <p> © 2026 mi sitio web.todos los derechos reservados </p>
+   
     </footer>
     <!--enlace de bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

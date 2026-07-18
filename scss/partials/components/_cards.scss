@@ -1,0 +1,23 @@
+
+@use "../utilities/mixin";
+
+.productos {
+    @include mixin.flex(row,space-between,center);
+
+}
+
+    
+    
+.card-container{
+    padding: 16px;
+    width: 350px;
+    height: 350px;
+    border-radius: 12px;
+    border: 1px solid black;
+    h4{
+        font-size: 1.5rem;
+    }
+    p{
+        margin: 8px 0px;
+    }
+}

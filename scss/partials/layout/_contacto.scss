@@ -1,0 +1,37 @@
+@use "../utilities/variables";
+@use "../utilities/mixin";
+
+//nav header//
+.navbar.nav{
+    color: rgb(151, 151, 124);
+    margin-right: auto;
+    background-color: variables.$oscuro-azulnavy-300;
+}
+.nav-link{
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 20px;
+    transition: 0.3s;
+   
+}
+.nav-link:hover,
+.nav-link.active:hover{
+    color: rgb(151, 151, 124);
+}
+
+//main//
+h2{
+    color: rgb(151, 151, 124);
+}
+   
+.contacto {
+    text-align: center;
+    font-size: 28px;
+    margin: 8px auto;
+}
+main p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+
+}
