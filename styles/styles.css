@@ -131,6 +131,16 @@ h1 {
   text-align: center;
 }
 
+.pedidos {
+  text-align: center;
+}
+
+.botones-pedidos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .nosotros-section h2 {
   text-align: center;
 }
