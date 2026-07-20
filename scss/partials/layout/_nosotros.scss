@@ -1,0 +1,28 @@
+@use "../utilities/mixin";
+@use "../utilities/variables";
+  
+//img centrar
+
+.nosotros-section h2{
+    text-align: center;
+
+}
+.nosotros-section img{
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+    display: block;
+}
+.contenidos-nosotros{
+    text-align: center;
+    max-width: 800px;
+    margin: 30px auto;
+    padding:  20px;
+
+}
+.galletas{
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+    display: block;
+}
