@@ -1,6 +1,7 @@
 @use "../utilities/variables";
 @use "../utilities/mixin";
 
+
 //nav header//
 .navbar.nav{
     color: rgb(151, 151, 124);
@@ -37,4 +38,14 @@ main p {
 }
 h1{
     text-align: center;
+}
+//tablet
+@media (min-width:577px)and
+(max-width:991px){
+    .btn btn-success{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:yellow;
+    }
 }

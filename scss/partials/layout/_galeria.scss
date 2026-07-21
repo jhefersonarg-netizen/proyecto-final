@@ -17,8 +17,11 @@
     margin-bottom: 40px;
 }
 .galeria img{
-    width: 950px;
-    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    width: 850px;
+    height: 400px;
     object-fit: cover;
     border-radius: 12px;
     transition: 0.4s;
@@ -30,4 +33,24 @@
 .galeria .row{
     justify-content: center;
     gap: 20px;
+}
+//smartphone//
+@media (max-width:576px){
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+//tablet//
+@media(min-width:577px)and
+(max-width:991px){
+    p{
+     font-size: 18px;
+        text-align: center;
+    }
+    .msj-final{
+        font-size: 18px;
+        text-align: center;
+
+    }
 }

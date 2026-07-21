@@ -1,0 +1,27 @@
+@use "../utilities/mixin";
+@use "../utilities/variables";
+
+body{
+    background-color: variables.$oscuro-azulnavy-300;
+}
+h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: variables.$primary-rose-50#91d1eb;
+}
+h3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
