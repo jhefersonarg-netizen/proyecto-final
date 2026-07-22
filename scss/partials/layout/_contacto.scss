@@ -39,13 +39,27 @@ main p {
 h1{
     text-align: center;
 }
+
+.btn{
+    display: grid;
+    grid-column: auto;
+}
+
+//mobile//
+@media (max-width:576px){
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 //tablet
 @media (min-width:577px)and
-(max-width:991px){
-    .btn btn-success{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:yellow;
-    }
+(max-width:1024px){
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+    
 }

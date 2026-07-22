@@ -1,6 +1,7 @@
 @use "../utilities/variables";
 @use "../utilities/mixin";
 
+
 .galeria h1{
     display: flex;
     align-items: center;
@@ -20,8 +21,8 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
-    width: 850px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     object-fit: cover;
     border-radius: 12px;
     transition: 0.4s;
@@ -32,24 +33,26 @@
 }
 .galeria .row{
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 //smartphone//
 @media (max-width:576px){
-    p {
-        font-size: 14px;
-        text-align: center;
+    .galeria img{
+     display: grid;
+    grid-template-columns: 2,1fr;
+    font-size: 14px;
+    text-align: center;
     }
 }
 //tablet//
 @media(min-width:577px)and
 (max-width:991px){
     p{
-     font-size: 18px;
+     font-size: 14px;
         text-align: center;
     }
     .msj-final{
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
 
     }
