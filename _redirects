@@ -1,0 +1,5 @@
+# 1. Redirección permanente (301) de la página de contacto vieja a la nueva
+/paginas/contactanos.html    /paginas/contacto.html    301
+
+# 2. Redirección para limpiar la URL de inicio (evita contenido duplicado)
+/index.html                  /                         301

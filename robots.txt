@@ -1,0 +1,11 @@
+ Permitir que todos los buscadores rastreen el sitio entero
+User-agent: *
+Allow: /
+
+# Bloquear carpetas privadas, de desarrollo interno o pasarelas de pago incompletas
+Disallow: /admin/
+Disallow: /config/
+Disallow: /checkout/
+
+# Indicar explícitamente la ubicación del mapa del sitio para acelerar el rastreo
+Sitemap: https://netlify.app
