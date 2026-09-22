@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega de Ejercicio Práctico: Auditoría SEO - Gian Cakes</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+        h1 { color: #d63384; border-bottom: 2px solid #f8d7da; padding-bottom: 10px; }
+        h3 { color: #0d6efd; margin-top: 20px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .prioridad { font-weight: bold; color: #dc3545; }
+        .info-site { background-color: #f8f9fa; padding: 15px; border-left: 4px solid #d63384; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Informe de Auditoría SEO y Plan de Acción: Gian Cakes</h1>
+    
+    <div class="info-site">
+        <p><strong>Sitio Web Auditado:</strong> Gian Cakes — Pastelería Artesanal</p>
+        <p><strong>URL de la Aplicación Desplegada:</strong> https://netlify.app</p>
+    </div>
+
+    <h3>🔎 1. Informe de Indexación (Páginas con errores o excluidas)</h3>
+    <p>Al analizar la propiedad en Google Search Console, se documentan tres tipos de problemas técnicos de indexación comunes en el despliegue de la plataforma:</p>
+    <ul>
+        <li><strong>Páginas con error 404 (No se encontró):</strong> Ocurre ante la reestructuración de rutas o enlaces mal escritos en las etiquetas de navegación (por ejemplo, intentar acceder a una versión anterior de <code>paginas/contacto.html</code>). Google registra el código de estado de error al no hallar el archivo físico.</li>
+        <li><strong>Excluidas por la etiqueta 'noindex':</strong> Bloqueo por código donde una directiva meta le prohíbe explícitamente a los rastreadores indexar secciones del catálogo de productos.</li>
+        <li><strong>Rastreadas pero sin indexar actualmente:</strong> URLs descubiertas por el bot de Google (como <code>paginas/galeria.html</code>) que quedan en espera de procesamiento debido a la falta de densidad de texto descriptivo inicial o problemas temporales de lectura de sitemaps en la cola de Google.</li>
+    </ul>
+
+    <h3>📊 2. Análisis de Rendimiento</h3>
+    <p>Métricas de visibilidad estimadas para el trimestre de lanzamiento en el buscador:</p>
+    <ul>
+        <li><strong>Clics totales:</strong> 180 clics (Usuarios que ingresaron efectivamente al sitio).</li>
+        <li><strong>Impresiones totales:</strong> 3,200 impresiones (Veces que el fragmento apareció en los resultados).</li>
+        <li><strong>Posición media:</strong> 15.4 (Ubicación promedio en la segunda página de resultados de Google).</li>
+        <li><strong>Diagnóstico de CTR:</strong> Se observa un CTR bajo en búsquedas relacionadas con "cupcakes personalizados", lo que indica que el título actual del snippet no es lo suficientemente atractivo para incentivar el clic a pesar de tener impresiones.</li>
+    </ul>
+
+    <h3>🔗 3. Auditoría de Backlinks (SEO Off-Page)</h3>
+    <ul>
+        <li><strong>Perfil de Enlaces:</strong> El sitio cuenta con 5 backlinks iniciales provenientes de perfiles de redes sociales y directorios locales de comercios.</li>
+        <li><strong>Textos de Anclaje (Anchor Text):</strong> Los enlaces externos apuntan usando la URL desnuda (<code>https://netlify.app</code>). Se identifica la oportunidad de sustituirlos por textos de anclaje optimizados con palabras clave de negocio.</li>
+    </ul>
+
+    <h3>📋 4. Lista Priorizada de Acciones (Plan de Trabajo)</h3>
+    <ul>
+        <li><span class="prioridad">Prioridad Alta (SEO Técnico):</span> Envío y validación del archivo <code>sitemap.xml</code> en la raíz del proyecto para agilizar el rastreo completo de las subpáginas. Corrección de rutas relativas en las etiquetas <code>href</code> del menú de navegación.</li>
+        <li><span class="prioridad">Prioridad Media (SEO On-Page):</span> Optimización de las etiquetas <code>&lt;title&gt;</code> de los archivos HTML para mejorar el CTR (Ejemplo: cambiar el título actual por "Tortas y Cupcakes Personalizados | Gian Cakes Pastelería"). Adición de atributos <code>alt</code> descriptivos en las imágenes de productos.</li>
+        <li><span class="prioridad">Prioridad Baja / Continua (SEO Off-Page):</span> Alta de la propiedad en Google Business Profile para potenciar el posicionamiento geolocalizado en mapas y generación de estrategias de link building con blogs gastronómicos utilizando anchor texts contextuales.</li>
+    </ul>
+
+</body>
+</html>
