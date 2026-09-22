@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+  <!-- Página Principal / Inicio -->
+  <url>
+    <loc>https://netlify.app</loc>
+    <priority>1.0</priority>
+  </url>
+  <!-- Página de Productos -->
+  <url>
+    <loc>https://netlify.apppaginas/productos.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página de Galería -->
+  <url>
+    <loc>https://netlify.apppaginas/galeria.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página de Nosotros -->
+  <url>
+    <loc>https://netlify.apppaginas/nosotros.html</loc>
+    <priority>0.5</priority>
+  </url>
+  <!-- Página de Contacto -->
+  <url>
+    <loc>https://netlify.apppaginas/contacto.html</loc>
+    <priority>0.5</priority>
+  </url>
+</urlset>
