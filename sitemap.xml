@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://sitemaps.org">
-  <!-- Página Principal / Inicio -->
+  
+  <!-- Página de Inicio (Máxima relevancia) -->
   <url>
     <loc>https://netlify.app</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- Página de Productos -->
+
+  <!-- Catálogo de Productos (Crucial para conversiones) -->
   <url>
     <loc>https://netlify.apppaginas/productos.html</loc>
-    <priority>0.8</priority>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-  <!-- Página de Galería -->
+
+  <!-- Galería de Tortas Personalizadas -->
   <url>
     <loc>https://netlify.apppaginas/galeria.html</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- Página de Nosotros -->
-  <url>
-    <loc>https://netlify.apppaginas/nosotros.html</loc>
-    <priority>0.5</priority>
-  </url>
-  <!-- Página de Contacto -->
+
+  <!-- Formulario de Contacto y Pedidos -->
   <url>
     <loc>https://netlify.apppaginas/contacto.html</loc>
-    <priority>0.5</priority>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
+
 </urlset>
