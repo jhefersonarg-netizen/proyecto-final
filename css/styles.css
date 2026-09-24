@@ -1,4 +1,10 @@
-/* --- Estilos Globales Basados en Accesibilidad --- */
+
+img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; 
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,11 +15,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px; /* Equivalente a 1rem */
     line-height: 1.6;
-    color: #2b2b2b; /* Alto contraste con el fondo blanco (cumple WCAG AA) */
+    color: #2b2b2b; 
     background-color: #ffffff;
 }
 
-/* --- Layout del Header y Navegación (Flexbox) --- */
+
 header {
     background-color: #f8f9fa;
     padding: 1.5rem;
@@ -34,7 +40,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #d63384; /* Color de marca contrastado */
+    color: #d63384; 
     font-weight: 600;
     font-size: 1.1rem;
     padding: 0.5rem;
@@ -43,7 +49,7 @@ nav ul li a {
 
 nav ul li a:hover, nav ul li a:focus {
     color: #a01c5a;
-    outline: 2px dashed #a01c5a; /* Indicador visual de foco para navegación por teclado */
+    outline: 2px dashed #a01c5a; 
 }
 
 /* --- Secciones Principales --- */
@@ -70,7 +76,7 @@ nav ul li a:hover, nav ul li a:focus {
     margin-top: 1.5rem;
 }
 
-/* --- Grid de Productos Responsivo (Mobile-First) --- */
+
 .destacados {
     padding: 2.5rem 1.5rem;
 }
@@ -83,7 +89,7 @@ nav ul li a:hover, nav ul li a:focus {
 
 .grid-productos {
     display: grid;
-    grid-template-columns: 1fr; /* Una sola columna por defecto en celulares */
+    grid-template-columns: 1fr; 
     gap: 2rem;
 }
 
@@ -101,9 +107,9 @@ nav ul li a:hover, nav ul li a:focus {
     border-radius: 4px;
 }
 
-/* --- Media Queries para Pantallas Medianas y Grandes (Dispositivos Responsive) --- */
 
-/* Tablets (Ancho mínimo: 600px) */
+
+
 @media (min-width: 600px) {
     header {
         flex-direction: row;
@@ -112,7 +118,7 @@ nav ul li a:hover, nav ul li a:focus {
     }
     
     .grid-productos {
-        grid-template-columns: repeat(2, 1fr); /* Dos columnas en tablets */
+        grid-template-columns: repeat(2, 1fr); 
     }
 
     .hero h1 {
@@ -120,10 +126,10 @@ nav ul li a:hover, nav ul li a:focus {
     }
 }
 
-/* Pantallas de Escritorio (Ancho mínimo: 1024px) */
+
 @media (min-width: 1024px) {
     body {
-        font-size: 18px; /* Texto ligeramente más grande en pantallas grandes */
+        font-size: 18px; 
     }
 
     .grid-productos {
