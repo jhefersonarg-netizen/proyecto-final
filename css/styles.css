@@ -1,9 +1,32 @@
 
-img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9; 
+
+input:focus, 
+checkbox:focus, 
+button:focus {
+  outline: 3px solid #0056b3; /* Azul nítido de alta confianza */
+  outline-offset: 2px;
 }
+
+/* Estado de Validación: Campo Inválido (Feedback de error al perder foco) */
+input:user-invalid {
+  border: 2px solid #dc3545; /* Rojo de advertencia estándar */
+  background-color: #fdf2f2;
+}
+
+/* Estado de Validación: Campo Válido (Señal visual positiva de confianza) */
+input:user-valid {
+  border: 2px solid #198754; /* Verde de confirmación segura */
+  background-color: #f4faf7;
+}
+
+/* Mensajes de error dinámicos */
+.mensaje-error {
+  color: #dc3545;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  display: block;
+}
+
 
 * {
     box-sizing: border-box;
